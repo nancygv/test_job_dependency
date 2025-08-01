@@ -23,6 +23,6 @@ jobs:
       runs-on: ubuntu-latest
       needs: t2_job
       steps:
-      - name:  Imprimir msj de comiit
+      - name:  Imprimir msj de commit
         run: |
           echo "Mensaje de commit: ${{ github.event.head_commit.message }}"
